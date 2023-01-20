@@ -23,5 +23,6 @@ namespace WindowsEducionITObservar.Models
         public Profesor Profesor { get; set; }
         [ForeignKey("CursoId")]
         public Curso Curso { get; set;}
+        public List<Detalle> detalles { get; set; }
     }
 }

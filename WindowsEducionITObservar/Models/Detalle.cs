@@ -18,5 +18,6 @@ namespace WindowsEducionITObservar.Models
 
         [ForeignKey("PlanillaId")]
         public Planilla Planilla { get; set;}
+        public List<Evaluacion> Evaluaciones { get; set;} 
     }
 }

@@ -14,6 +14,7 @@ namespace WindowsEducionITObservar.Models
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         [ForeignKey("LocalidadId")]
-        public Localidad Localidad { get; set; }    
+        public Localidad Localidad { get; set; }
+        public List<Planilla> planillas { get; set; }
     }
 }

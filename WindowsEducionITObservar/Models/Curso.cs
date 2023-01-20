@@ -10,5 +10,6 @@ namespace WindowsEducionITObservar.Models
     {
         public int CursoId { get; set; }
         public string Nombre { get; set; }
+        public List<Planilla> planillas { get; set; }
     }
     }

@@ -19,5 +19,6 @@ namespace WindowsEducionITObservar.Models
 
         [ForeignKey("LocalidadId")]
         public Localidad Localidad { get; set; }
+        public List<Evaluacion> Evalaciones { get; set;}
     }
 }

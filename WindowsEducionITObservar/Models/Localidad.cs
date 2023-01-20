@@ -10,5 +10,7 @@ namespace WindowsEducionITObservar.Models
     {
         public int LocalidadId { get; set; }
         public string Nombre { get; set; }
+        public List<Profesor> profesores { get; set; }
+        public List<Estudiante> estudiantes { get; set; }
     }
 }

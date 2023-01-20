@@ -10,5 +10,6 @@ namespace WindowsEducionITObservar.Models
     {
         public int TipoId { get; set; }
         public string Nombre { get; set; }
+        public List<Evaluacion> Evalaciones { get; set;}
     }
 }
